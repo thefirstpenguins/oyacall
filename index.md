@@ -91,7 +91,7 @@ title: オヤコール
 
 ---
 
-## テストモニター募集中
+## <span id="apply">テストモニター募集中</span>
 
 現在、テスト運用のため、少人数のモニターご家族さまを募集しています。
 
@@ -125,24 +125,28 @@ title: オヤコール
 ---
 
 ## よくある質問
-
-**Q. 認知症の親でも利用できますか？**  
+<details>
+  <summary><strong>**Q. 認知症の親でも利用できますか？**  </strong></summary>
 A. 会話の内容や理解の程度によります。  
 　 まずは一度ご相談いただき、継続利用が難しい場合は無理におすすめしません。
+</details>
 
-**Q. 医療や介護の相談もできますか？**  
+<details>
+  <summary><strong>**Q. 医療や介護の相談もできますか？**  </strong></summary>
 A. オヤコールは“日常のおしゃべりと見守り”に特化したサービスです。  
 　 医療・介護の判断やアドバイスは行いません。  
 　 気になる症状がある場合は、かかりつけ医や専門窓口へのご相談をおすすめします。
-
-**Q. AIと話すのですか？**  
+</details>
+<details>
+  <summary><strong>**Q. AIと話すのですか？**   </strong></summary>
 A. 親御さんとお話しするのは人間のスタッフです。  
 　 AIは、会話の要約や“声のレポート”作成を助ける裏方として利用しています。
-
-**Q. どのくらいの頻度で電話してくれるのですか？**  
+</details>
+<details>
+  <summary><strong>**Q. どのくらいの頻度で電話してくれるのですか？**   </strong></summary>
 A. テストモニター期間中は「週3回」を基本としています。  
 　 本リリース時には、毎日／週3回／週1回など、選べるプランを予定しています。
-
+</details>
 ---
 
 ## まずは、1ヶ月だけ試してみませんか？
@@ -155,9 +159,9 @@ A. テストモニター期間中は「週3回」を基本としています。
 
 
 **まずは1ヶ月だけ、おためしからでも大歓迎です。**
-
-[無料モニターの案内を受け取る](#)
-
+<p style="text-align:center; margin: 2rem 0;">
+  <a class="hero-button" href="#apply">無料モニターの案内を受け取る</a>
+</p>
 <style>
 /* ヒーローエリア */
 .hero {
@@ -261,4 +265,35 @@ A. テストモニター期間中は「週3回」を基本としています。
 }
 </style>
 
+<style>
+/* 既存の .features や .feature-card の下に追加 */
+
+h2 {
+  margin-top: 2.5rem;
+}
+
+section,
+div.hero {
+  margin-bottom: 2.5rem;
+}
+</style>
+<style>
+details {
+  background: #fff;
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+details summary {
+  cursor: pointer;
+}
+
+details p {
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+</style>
 
